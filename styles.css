@@ -307,7 +307,7 @@ li {
 .portfolio-description .cta {
     display: inline-block;
     margin-top: 2.5rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-transform: uppercase;
     color: #F1A6FF;
     transition: color 650ms;
@@ -413,7 +413,7 @@ input[type="submit"]:hover {
 
 @media screen and (max-width: 768px) {
     body {
-    background: url("images/chainlinks.png") no-repeat center fixed;
+    background: url("images/Chainlinks.png") no-repeat center fixed;
     background-size: cover;
     }
 
