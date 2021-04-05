@@ -100,7 +100,7 @@ header {
     position: fixed;
     top: -100vh;
     z-index: 50;
-    background-color: #16162d;
+    background-color: #0F0F0F;
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 100%;
     transition: all 650ms cubic-bezier(1,0,0,1);
@@ -344,12 +344,13 @@ input, textarea {
     padding: 1rem;
     margin-bottom: 5px;
     border: none;
+    color: #eee;
     outline-color: #F1A6FF;
     background-color: #3f3f3f;
 }
 
 input[type="text"], input[type="email"] {
-    color: rgb(243, 243, 243);
+    color: #eee;
 }
 
 input[type="submit"] {
@@ -364,6 +365,11 @@ input[type="submit"] {
 input[type="submit"]:hover {
     color: #221e3f;
     background-color: #00ffe5;
+}
+
+::placeholder {
+    color: #eee;
+    opacity: .9;
 }
 
 .copyright {
