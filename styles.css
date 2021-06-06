@@ -15,6 +15,7 @@ body {
     height: 100%;
     background: url("images/Chainlinks.png") no-repeat center fixed;
     background-size: cover;
+    overflow-x: hidden;
 }
 
 section {
@@ -466,7 +467,13 @@ input[type="submit"]:hover {
 
     .icon-container i {
         font-size: 4rem;
-    }    
+    }
+
+    .portfolio-item img {
+        width: 85%;
+        height: 85%;
+        object-fit: cover;
+    }
 
 }
 
