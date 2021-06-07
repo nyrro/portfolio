@@ -15,6 +15,9 @@ body {
     height: 100%;
     background: url("images/Chainlinks.png") no-repeat center fixed;
     background-size: cover;
+}
+
+html, body {
     overflow-x: hidden;
 }
 
@@ -419,10 +422,10 @@ input[type="submit"]:hover {
 /*media queries*/
 
 @media screen and (max-width: 768px) {
-    body {
+    /* body {
     background: url("images/Chainlinks.png") no-repeat center fixed;
     background-size: cover;
-    }
+    } */
 
     .landing-text h1 {
         font-size: 15rem;
