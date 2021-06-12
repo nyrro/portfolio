@@ -293,6 +293,8 @@ li {
 
 .portfolio-description {
     flex: 1;
+    background-color: rgba(61, 61, 61, 0.637);
+    padding: 2rem;
 }
 
 .portfolio-description h1 {
